@@ -209,11 +209,11 @@ textarea {
 }
 
 .ba-banner__content h2 {
-	font-size: 28px;
+	font-size: 29px;
 }
 
 .ba-banner__content p {
-	font-size: 18px;
+	font-size: 20px;
 	padding-bottom: 20px;
 }
 /* button */
@@ -237,22 +237,15 @@ textarea {
 .fa-chevron-righ:after {
 	background: #FFFFFF;
 }
-/* section acticeno */
-.ba-acticeno {
-	background: linear-gradient(to top, #ffffff 50%, #F5F5F5 50%);
-}
 
-.ba-acticeno-bg{
-	background: linear-gradient(to right, #F06862 50%, transparent 50%);
+.ba-acticeno {
+	position: relative;
+    background-color: #F06862;
+    z-index: -7;
 }
 
 .ba-acticeno p {
-	margin-bottom: 25px;
-}
-
-.ba-acticeno__content {
-    color: #fbd9d7;
-    padding: 90px 60px 60px 0;
+	padding-bottom: 20px;
 }
 
 .ba-acticeno__content h2 {
@@ -260,18 +253,38 @@ textarea {
 	font-size: 28px;
 }
 
-.ba-acticeno__content1, .ba-acticeno__content2 {
-	color: #7f7f7f;
-	padding: 35px 0 40px 60px;
-	position: relative;
-	z-index: 100;
-}
-
 .ba-acticeno__content1 h3, .ba-acticeno__content2 h3 {
 	color: #f06862;
 	font-size: 18px;
 }
 
+.ba-acticeno__content {
+    color: #fbd9d7;
+    padding: 40px 60px 10px 0;
+}
+
+.ba-acticeno__content1, .ba-acticeno__content2 {
+	color: #7f7f7f;
+	padding: 20px 0 20px 60px;
+	position: relative;
+	z-index: 10;
+}
+
+.ba-acticeno__content1:before, .ba-acticeno__content2:before {
+    background-color: #F5F5F5;
+    display: block;
+    height: 100%;
+    width: 1000%;
+    content: '';
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.ba-acticeno__content2:before {
+    background-color: #FFFFFF;
+}
 /*section ipad*/
 .ba-ipad {
 	background: #f5f5f5;
