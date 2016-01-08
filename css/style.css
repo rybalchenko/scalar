@@ -267,17 +267,6 @@ textarea {
 	z-index: 100;
 }
 
-.ba-acticeno__content1:before, .ba-acticeno__content2:before {
-	display: block;
-	content: '';
-	top: 0;
-	height: 0;
-	position: absolute;
-	width: 1000%;
-	z-index: 0;
-	background: #f1f1f1;
-}
-
 .ba-acticeno__content1 h3, .ba-acticeno__content2 h3 {
 	color: #f06862;
 	font-size: 18px;
@@ -591,4 +580,3 @@ textarea {
 .ba-footer__square:hover .ba-footer__icon:before {
 	color: #ffffff;
 }
-
