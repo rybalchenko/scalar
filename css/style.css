@@ -1,5 +1,5 @@
 body{
-	font: 400 14px/1.5 'Source Sans Pro', sans-serif;
+	font: 400 14.8px/1.6 'Source Sans Pro', Helvetica, sans-serif;
 	color: #ffffff;
 	letter-spacing: 0.7px;
 }
@@ -72,19 +72,15 @@ textarea {
 	z-index: 1000;
 	left: 0;
 	top: 0;
-}
-
-.ba-header__inside {
-	margin: 0 auto;
-	max-width: 960px;
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
 /* logo */
 .ba-header__ba-logo {
 	float: left;
-	margin-top: 20px;
+	margin-top: 16px;
 	font-size: 22px;
 }
 
@@ -215,7 +211,9 @@ textarea {
 .ba-banner__content p {
 	font-size: 20px;
 	padding-bottom: 20px;
+	text-transform: uppercase;
 }
+
 /* button */
 .ba-button {
 	padding: 8px 20px;
@@ -538,7 +536,7 @@ textarea {
 /* footer */
 .ba-footer {
 	background-color: #f1f1f1;
-	padding: 80px 0;
+	padding: 70px 0 45px;
 }
 
 .ba-footer__icons {
