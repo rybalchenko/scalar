@@ -239,7 +239,6 @@ textarea {
 .ba-acticeno {
 	position: relative;
     background-color: #F06862;
-    z-index: -7;
 }
 
 .ba-acticeno p {
