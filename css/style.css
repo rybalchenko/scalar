@@ -166,7 +166,7 @@ textarea {
 /* submenu-2 */
 .ba-menu__submenu > li {
 	position: relative;
-	}
+}
 
 .ba-menu__submenu-ul {
 	position: absolute;
@@ -237,7 +237,6 @@ textarea {
 }
 
 .ba-acticeno {
-	position: relative;
     background-color: #F06862;
 }
 
